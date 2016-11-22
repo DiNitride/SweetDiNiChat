@@ -1,0 +1,25 @@
+.root {
+    -fx-background-image: url("login-screen-background.jpg");
+    -fx-background-size: cover;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.grid {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0 5 0 5;
+    -fx-padding: 25;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+#welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: white;
+}
